@@ -1,0 +1,72 @@
+ body {
+     margin: 0;
+     font-family: monospace;
+ }
+
+ .row {
+    height: 100% ;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+} 
+
+.column {
+    height: 100%;
+    width:100%;
+}
+
+.abc {
+    min-height: 100vh;
+    margin: 0;
+    padding: 100px;
+}
+
+.outfit-button{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.outfit-button:hover{
+    background-color:white;
+    color: black;
+}
+
+
+.outfit-header {
+    color: black;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 50px;
+    padding:0;
+}
+
+img {
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+    width: 20%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.three_random_images {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.vogue-badge {
+    border: none;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    list-style: none;
+    align-items: center;
+}
